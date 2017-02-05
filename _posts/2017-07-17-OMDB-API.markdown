@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 2
+date: 2016-04-13
+img: OMDB.png
+alt: image-alt
+project-date: May 2016
+client: Own project
+clienturl: https://github.com/goebers/omdb-api-testing
+category: Web Development
+description: This webapp searches the OMDB-database, finds and displays a movie/series with the same name or IMDB- code as searched.
+
+---
