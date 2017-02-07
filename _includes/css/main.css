@@ -501,6 +501,26 @@ footer .footer-below {
   color: #{{ site.color.white }};
 }
 
+.form-control {
+  color: #{{ site.color.white }};
+}
+
+#stars span {
+    font-size: 3em;
+}
+
+#starFill:before {
+    content: "\2605";
+    position: absolute;
+}
+
+@media (max-width: 1200px) {
+    #stars {
+        text-align: center;
+    }
+}
+
+
 @-webkit-keyframes blink {
     0% {
         color: #e74c3c;
