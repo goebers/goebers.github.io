@@ -520,13 +520,17 @@ footer .footer-below {
     }
 }
 
+#stars {
+    text-align: center;
+}
+
 .hr-white {
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #ffffff !important;
 }
 
 
 .hr-green {
-    border-top: 1px solid #18bc9c;
+    border-top: 1px solid #18bc9c !important;
 }
 
 
