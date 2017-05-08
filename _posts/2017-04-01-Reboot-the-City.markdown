@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2017-04-01
-img: reboot.png
+img: reboot.PNG
 alt: image-alt
 project-date: April 2017
 client: Stara
