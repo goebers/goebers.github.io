@@ -35,3 +35,21 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+var birthday = new Date("1997-02-04");
+
+// this makes sure i have always right age in my about-section
+function calculateAge(i) {
+    var today = new Date();
+    var birthDate = new Date(i);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    $('#age').html(age);
+}
+
+$(document).ready(function() {
+    calculateAge(birthday);
+});
