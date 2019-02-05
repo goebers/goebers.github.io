@@ -2,7 +2,7 @@
 title: R. Laitila
 email: your-email@domain.com
 url: https://example.github.io
-description: "My portfolio - Robert Laitila"
+description: "Robert Laitila portfolio"
 skills: "Front-end Developer - Software Developer"
 meta_author: Laitila Robert
 
@@ -43,7 +43,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Espoo, Finland
+  - line: Helsinki, Finland
 
 # Credits content
 credits: 'Created by using <a href ="http://getbootstrap.com/">Bootstrap</a> & <a href ="https://jekyllrb.com/">Jekyll</a>.'
